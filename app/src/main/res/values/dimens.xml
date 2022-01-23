@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginActionBtn">16dp</dimen>
+    <dimen name="text_size_item">24sp</dimen>
+    <dimen name="mrgStart">6dp</dimen>
+</resources>
