@@ -8,6 +8,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 <androidx.constraintlayout.widget.ConstraintLayout
     android:background="#D2B5F6"
+    android:paddingHorizontal="4dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 <TextView
