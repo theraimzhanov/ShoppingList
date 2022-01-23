@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="#8338DF"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/nameOfItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="@dimen/text_size_item"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="@string/name_of_shop"
+        android:layout_margin="@dimen/marginActionBtn" />
+    <TextView
+        android:id="@+id/labelCountItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/count"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_item"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/nameOfItem"
+        app:layout_constraintStart_toStartOf="@id/nameOfItem" />
+    <TextView
+        android:id="@+id/countOfItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/labelCountItem"
+        app:layout_constraintTop_toBottomOf="@id/nameOfItem"
+        android:textSize="@dimen/text_size_item"
+        android:layout_marginStart="@dimen/mrgStart"
+        android:textStyle="bold"
+        android:textColor="#F81909"
+        android:text="@string/_11"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
